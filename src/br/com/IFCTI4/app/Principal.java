@@ -17,55 +17,41 @@ public class Principal {
 		int IPI = leia.nextInt();	
 		
 		obj.setIPI(IPI);
-		
-		System.out.println(obj.getIPI());
-		
+				
 		
 		// Input's referentes a peça 1
 		System.out.println("Informe o codigo da peça 1:");
 		int cod1 = leia.nextInt();
 		
 		obj.setCod1(cod1);
-		
-		System.out.println(obj.getCod1());
-		
+				
 		System.out.println("Informe o valor unitario da peça 1:");
 		int valor1 = leia.nextInt();
 		
 		obj.setValor1(valor1);
-		
-		System.out.println(obj.getValor1());
-		
+				
 		System.out.println("Informe a quantidades de peças 1");
 		int qtde1 = leia.nextInt();
 		
 		obj.setQtde1(qtde1);
-		
-		System.out.println(obj.getQtde1());
-		
+				
 		
 		// Input's referentes a peça 2
 		System.out.println("Informe o codigo da peça 2:");
 		int cod2 = leia.nextInt();
 		
 		obj.setCod2(cod2);
-		
-		System.out.println(obj.getCod2());
-		
+				
 		System.out.println("Informe o valor unitario da peça 2:");
 		int valor2 = leia.nextInt();
 		
 		obj.setValor2(valor2);
-		
-		System.out.println(obj.getValor2());
-		
+				
 		System.out.println("Informe a quantidades de peças 2");
 		int qtde2 = leia.nextInt();
 		
 		obj.setQtde2(qtde2);
-		
-		System.out.println(obj.getQtde2());
-		
+				
 		obj.Calculo();
 		
 		
